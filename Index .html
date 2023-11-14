@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title></title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+    body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            padding: 0 10px;
+        }
+
+        video {
+            width: 100%;
+        }
+
+        .mobile-image {
+            display: none;
+        }
+
+        .main-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgb(146, 79, 241);
+        }
+
+        .logo {
+            margin-right: auto;
+        }
+
+        .menu-items {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .menu-items li {
+            margin-right: 20px;
+        }
+
+        .menu-items a {
+            text-decoration: none;
+            color: #fafafa;
+            font-weight: bold;
+        }
+
+        .logo img {
+            width: 60px;
+            height: auto;
+        }
+
+        .menu-items a:hover {
+            color: #1976ef;
+        }
+
+        .post-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .post-section img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+
+        .post {
+            border: 0;
+            padding: 20px;
+            width: 100%; /* Adjusted for responsiveness */
+            text-align: center;
+        }
+
+        .post p {
+            text-align: justify;
+        }
+
+        .box-container {
+            text-align: center;
+        }
+
+        .site-footer {
+            background-color: lightblue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .post {
+                width: 100%; /* Adjusted for responsiveness */
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav {
+                text-align: center;
+                margin-top: 10px;
+                order: 2;
+            }
+
+            img {
+                width: 100%;
+                display: block;
+                margin: 10px auto;
+            }
+
+            video {
+                display: none;
+            }
+
+            .mobile-image {
+                display: block;
+            }
+
+            .hamburger-menu {
+                display: block;
+            }
+        }
+    </style>
+    
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" > </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve" width="150" height="150">
+<style type="text/css">
+	.st0{stroke:#F2D5BB;stroke-width:6;stroke-miterlimit:10;}
+	.st1{fill:#D9BBA0;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st2{fill:#AADFEE;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st3{stroke:#AADFEE;stroke-width:6;stroke-miterlimit:10;}
+	.st4{fill:none;}
+	.st5{font-family:'MyriadPro-Regular';}
+	.st6{font-size:72px;}
+    div {
+        transform: rotate(360deg);
+      }
+</style>
+<g id="Layer_1">
+	<line class="st0" x1="249.04" y1="302.05" x2="248.62" y2="205"/>
+	<line class="st0" x1="324" y1="301.53" x2="323.58" y2="204.47"/>
+	<path class="st1" d="M366.5,548.5h-157c-11.05,0-20-8.95-20-20v-220c0-11.05,8.95-20,20-20h157c11.05,0,20,8.95,20,20v220
+		C386.5,539.55,377.55,548.5,366.5,548.5z"/>
+	<path class="st2" d="M381.5,550h-184c-11.05,0-20-8.95-20-20v-27.5c0-11.05,8.95-20,20-20h184c11.05,0,20,8.95,20,20V530
+		C401.5,541.05,392.55,550,381.5,550z"/>
+	<line class="st3" x1="235.75" y1="572.54" x2="235.75" y2="512.44"/>
+	<line class="st3" x1="336.5" y1="574.05" x2="336.5" y2="513.95"/>
+	<line class="st0" x1="246.45" y1="206" x2="323.36" y2="207"/>
+	<path class="st2" d="M359.5,535.5h-139c-11.05,0-20-8.95-20-20l0,0c0-11.05,8.95-20,20-20h139c11.05,0,20,8.95,20,20l0,0
+		C379.5,526.55,370.55,535.5,359.5,535.5z"/>
+	<rect x="235" y="373" class="st4" width="113" height="57"/>
+	<text transform="matrix(1 0 0 1 235 424.1191)" class="st0 st5 st6">WX</text>
+</g>
+<g id="Layer_2">
+</g>
+<g id="Layer_3">
+</g>
+<g id="Layer_4">
+</g>
+</svg>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item" style="margin-right: 800px;">
+                        <li><a class="nav-link"> Home </a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Package Tours.html" id="navbarDropdown" role="button">Package Tours</a>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Discounts.html">Discounts</a>
+                                <a class="dropdown-item" href="Locals.html">Locals</a>
+                                <a class="dropdown-item" href="Overseas.html">Overseas</a>
+                        <li class="nav-item"><a class="nav-link"> Rediscover Singapore </a></li>
+                        <li class="nav-item"><a class="nav-link"> Cruises </a></li>
+                        <li class="nav-item"><a class="nav-link" href="Contact Us.html"> Contact Us </a></li>
+                    </li>           
+                </div>
+            </div>        
+    </nav>
+
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="Video/tourism .mp4" type="video/mp4" > 
+
+            <img class="mobile-image" src="Images/videdo image.jpeg" alt="Mobile Image">
+        </video>
+    </div>
+        
+    <div class="box-container">
+        <h2 style="padding:20px;"><b>Traveling</b></h2>
+        <div class="post-section">
+            <div class="post">
+                <img src="Images/Amalfi-Italy.jpeg" alt="Italy" width="300px" class="img-fluid">
+                <p> 
+                    Italy, a land of timeless beauty and rich cultural heritage, beckons travelers with its irresistible blend of history, art, and natural splendor. Nestled in the heart of Europe, this enchanting country is a tapestry of diverse landscapes, from the sun-drenched shores of the Amalfi Coast to the majestic peaks of the Dolomites. 
+                    Italy's cities, each a living museum, boast iconic landmarks like the Colosseum in Rome, the art-filled galleries of Florence, and the romantic waterways of Venice. Culinary delights await at every turn, from the mouthwatering pasta of Bologna to the delectable pizzas of Naples. 
+                    With a passion for life and a deep-rooted appreciation for la dolce vita, Italy promises an unforgettable journey for every traveler. Explore its cobbled streets, savor its world-class wines, and immerse yourself in a culture that has captivated hearts for centuries. Buon viaggio!
+                </p>
+            </div>
+
+            <div class="post">
+                <img src="Images/france.jpg"  alt="France" width="300px" class="img-fluid">
+                <p> 
+                    France, a nation synonymous with art, romance, and gastronomy, is a tapestry of elegance and charm. From the iconic skyline of Paris with the Eiffel Tower as its crown jewel to the lavender fields of Provence, France's landscapes are as diverse as its cultural offerings. 
+                    The Louvre, home to the enigmatic Mona Lisa, and the Gothic splendor of Notre-Dame Cathedral, stand as testaments to its rich artistic legacy. Beyond the city lights, the vineyard-covered hills of Bordeaux and the sun-soaked beaches of the French Riviera beckon. 
+                    Indulge in exquisite cuisine, from the buttery croissants of a Parisian café to the world-class wines of Burgundy. France is a country that inspires, captivates, and leaves an indelible mark on every visitor. 
+                    Immerse yourself in its romance, history, and joie de vivre for an experience that transcends time. Bienvenue en France!
+                </p>
+            </div>
+            
+            <div class="post">
+                <img src="Images/sg.jpg" alt="Singapore" width="300px" class="img-fluid">
+                <p>  
+                    Singapore, a gleaming jewel in Southeast Asia, is a dynamic fusion of tradition and modernity. This city-state, known as the "Lion City," dazzles with its futuristic skyline, including the iconic Marina Bay Sands and the Gardens by the Bay. 
+                    Immerse yourself in the vibrant cultural enclaves of Chinatown, Little India, and Kampong Glam, each offering a unique tapestry of flavors, sights, and sounds. Explore the lush green spaces like the Singapore Botanic Gardens or venture into the bustling streets of Orchard Road for world-class shopping. 
+                    With its impeccable cleanliness, efficient public transport, and a melting pot of culinary delights, Singapore ensures a seamless and delightful experience for every traveler. Discover a city that seamlessly marries tradition and progress, offering a truly unique and unforgettable adventure. Welcome to Singapore!
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <p>©2023 world explore Powered by Visual Studio Code.</p>
+    </footer>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
